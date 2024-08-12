@@ -4,13 +4,13 @@ int main()
 {
 	int a = 1;
 
-	while(a <= 20)
+	while (a <= 20)
 	{
-		if( a > 6 && a < 15 )
+		if (a >= 16 || a < 15)
 			putchar('*');
-		printf("%d\n",a);
+		printf("%d\n", a);
 		a++;
 	}
 
-	return(0);
+	return (0);
 }

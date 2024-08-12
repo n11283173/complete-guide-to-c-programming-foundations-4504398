@@ -4,7 +4,7 @@ int a,b;
 
 void sum(void)
 {
-	extern int a,b;
+	extern int a,b; //need to use extern and compiler looks outside the function
 
 	a = 91; b = 7;
 	printf("%d + %d = %d\n",a,b,a+b);
